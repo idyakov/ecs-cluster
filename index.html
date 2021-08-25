@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Develop by Ilya</title>
+	<meta name="description" content="DESCIPTIONHERE" />
+    <meta name="author" content="Codeconvey" />
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+	<link rel="stylesheet" type="text/css" href="zoom.css" />
+
+    <!--content tpe : HTML -->
+    <meta http-equiv="content-type"
+        content="text/html; charset=UTF-8">
+
+    <!-- Making viewport responsive -->
+    <meta name="viewport" content=
+        "width=device-width,minimum-scale=1,
+        initial-scale=1">
+
+    <meta http-equiv="content-type"
+        content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width,
+        minimum-scale=1,initial-scale=1">
+
+    <script src=
+        "https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+
+    <script src=
+"https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js">
+    </script>
+
+    <link rel="stylesheet" href=
+"https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
+
+    <style type="text/css">
+        .terminal,
+        span,
+        .cmd,
+        div {
+            --color: rgba(0, 128, 0, 0.99);
+        }
+
+        .terminal,
+        span {
+            --size: 1.4;
+        }
+    </style>
+
+</head>
+
+<body">
+<style>
+body {
+  background-image: url('cv/city.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+<header>
+<center>
+            	<h1 style="color:white;">Ilya Dyakov</h1>
+                <p>this is page for public domain</p>
+                <p>Last Updated: 29 June 2021</p>
+</center>
+</header>
+
+
+<center>
+  <h3 style="color:white;"><a href="https://github.com/idyakov" style="color:white;">GitHub link</a></h1=3>
+  <h3 style="color:white;"><a href="page2.html" target="_self" style="color:white;">My IT Certifications</a></h3>
+  <h3 style="color:white;"><a href="cv/CV..docx" style="color:white;">Ilya_Dyakov-CV</h3>
+  <h3 style="color:white;"><a href="https://www.linkedin.com/in/idyakov/" style="color:white;">LinkedIn</a></h3>
+</center>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h3>-</h3>
+<h3>-</h3>
+<h3>-</h3>
+
+<h3>-</h3>
+<h4>-</h4>
+
+
+<center><img src="cv\aws-certified-solutions-architect-associate.png" width="100" height="100" alt="Image Sample"></center>
+<center><h6 style="color:white;">Scroll down</h6></center>
+<!-- hitwebcounter Code START -->
+<center><a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7833023&style=0038&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>  </center>
+
+<h3>-</h3>
+
+<body>
+
+    <script>
+        $('body').terminal({
+            iam: function (name) {
+                this.echo('Hello, ' + name +
+                    '. Welcome to I-devops WebPage');
+            },
+            founder: function () {
+                this.echo('Ilya Dyakov');
+            },
+            command: function () {
+                this.echo('your command will execute soon');
+
+            },
+			grep: function () {
+                this.echo('egrep, fgrep - print lines matching a pattern');
+
+            },
+			cat: function () {
+                this.echo('concatenate files and print on the standard output');
+
+            },
+			tail: function () {
+                this.echo('output the last part of files');
+
+            },
+			netstat: function () {
+                this.echo('Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships');
+            },
+            
+			ipcalc: function () {
+                this.echo('perform simple operations on IP addresses and networks');
+
+            },
+			less: function () {
+                this.echo('opposite of more');
+
+            },
+			id: function () {
+                this.echo('print real and effective user and group IDs');
+
+            },
+			id: function () {
+                this.echo('print real and effective user and group IDs');
+
+            },
+			id: function () {
+                this.echo('print real and effective user and group IDs');
+
+            },
+            docker: function () {
+                this.echo('Independently deployable services into container '
+                + 'Containers, isolated environment for application\n'
+                + 'Automated Building and deploying application , Docker Hub - repository\n'
+				+ 'Docker run -it -p 8080:80 nginx |	Interactive start the docker\n'
+				+ 'Docker run - -p 8080:80 nginx   |	Background start the docker\n'
+                + 'docker  ps					    |	list containers\n'
+				+ 'docker  ps -a				    |	list all containers which was loaded\n'
+				+ 'docker images				    |	List images\n'
+				+ 'docker rm						|	delete container\n'
+				+ 'docker rmi						|	delete image\n'
+				+ 'docker rmi -f					|	Delete all Images\n'
+				+ 'docker rm –f <id_container		|	Delete all Containers\n'
+				+ 'docker pull <image>				|	Download images\n'
+				+ 'docker search <image>			|	Search repo into Dockerhub');
+			},
+			chmod: function () {
+                this.echo('Command	Meaning'
+                + 'chmod 400 file	To protect a file against accidental overwriting.\n'
+                + 'chmod 600 file	A private file only changeable by the user who entered this command.\n'
+                + 'chmod 500 directory	To protect yourself from accidentally removing, renaming or moving files from this directory.\n'
+                + 'chmod 644 file	A publicly readable file that can only be changed by the issuing user.\n'
+                + 'chmod 660 file	Users belonging to your group can change this file, others dont have any access to it at all.\n'
+                + 'chmod 700 file	Protects a file against any access from other users, while the issuing user still has full access.\n'
+                + 'chmod 755 directory	For files that should be readable and executable by others, but only changeable by the issuing user.\n'
+                + 'chmod 775 file	Standard file sharing mode for a group.\n'
+                + 'chmod 777 file	Everybody can do everything to this file..');				
+            },
+            kubernetes: function () {
+                this.echo('Infrastructure for managing multiple containers\n'
+                + 'Automated scheduling and management of application containers\n'
+                + 'Ecosystem for managing a cluster of Docker containers\n'
+				+ 'kubectl  								|	This is command which allows to perform every possible Kubernetes operation.'
+				+ 'get nodes\n'
+                + 'kubectl get pods --all-namespaces\n');
+			},
+			ansible: function () {
+                this.echo('Configuration management, and application-deployment tool\n'
+				+ 'An Ansible ad hoc command  command-line tool to automate a single task\n'
+				+ 'Playbook -  playbooks are regularly used to automate IT infrastructure\n'
+				+ 'Inventory -  configurable systems in your infrastructure\n'
+				+ 'by default usualy located in /etc/ansible/hosts\n'
+				+ 'ansible all -shell -a "uptime"		|	Check date/time into servers\n'
+				+ 'ansible all -a "df -h"				|	Check storage space\n'
+				+ 'Ansible playbook <playbo>			|	Playbook executing');
+			},
+			jenkins: function () {
+                this.echo('CI process to build an application and package it into isolating container environment');
+			},
+			ansible: function () {
+                this.echo('Configuration management, and application-deployment tool\n'
+				+ 'An Ansible ad hoc command  command-line tool to automate a single task\n'
+				+ 'Playbook -  playbooks are regularly used to automate IT infrastructure\n'
+				+ 'Inventory -  configurable systems in your infrastructure\n'
+				+ 'by default usualy located in /etc/ansible/hosts\n'
+				+ 'ansible all -shell -a "uptime"		|	Check date/time into servers\n'
+				+ 'ansible all -a "df -h"				|	Check storage space\n'
+				+ 'Ansible playbook <playbo>			|	Playbook executing');
+            },
+			ping: function () {
+                this.echo('measures the round-trip time for messages sent from\n'
+				+ 'the originating host to a destination computer that are echoed back to the source (ICMP protocol)');
+            },
+			git: function () {
+                this.echo('git init					|	Create new repository\n'
+				+ 'git clone /path/to/repository	|	Create a working copy of a local repository\n'
+				+ 'git add <filename>				|	Add one or more files to staging (index)\n'
+				+ 'git commit -m "Commit message"	|	Commit changes to head (but not yet to the remote repository\n'
+				+ 'git push origin master			|	Send changes to the master branch of your remote repository\n'
+				+ 'git status						|	List the files you have changed and those you still need to add or commit\n'
+				+ 'git branch						|	List all the branches in your repo, and also tell you what branch you are currently in'
+				);
+            },
+			dns: function () {
+                this.echo('DNS (Domain Name System) is a network protocol used to translate hostnames into IP addresses (nslookup)'
+				);
+			},
+			ssh: function () {
+                this.echo('Cryptographic network protocol for operating network services'
+				);
+            },
+			dhcp: function () {
+                this.echo('Dynamic Host Configuration Protocol (DHCP)\n'
+				+ 'is a network management protocol used on Internet Protocol (IP)\n'
+				+ 'networks for automatically assigning IP addresses and other\n'
+				+ 'communication parameters to devices connected to the network'
+				);
+            },
+			tcp : function () {
+                this.echo('Transmission Control Protocol (TCP) is a transport protocol\n'
+				+ 'networks for automatically assigning IP addresses and other\n'
+				+ 'communication parameters to devices connected to the network\n'
+				+ '\n'
+				+ 'Step 1: Establish connection\n'
+				+ '		SYN = "synchronize\n'
+				+ '		ACK = "acknowledge\n'
+				+ 'Step 2: Send packets of data\n'
+				+ '		ACK = "acknowledge\n'
+				+ 'Step 3: Close the connection\n'
+				+ '		FIN = finish\n'
+				+ '		FIN/ACK = "acknowledge\n'
+				+'		ACK = "acknowledge\n'
+
+				);
+            },
+			udp : function () {
+                this.echo('User Datagram Protocol (UDP) \n'
+				+ 'The User Datagram Protocol, or UDP, is a communication protocol used across \n'
+				+ 'the Internet for especially time-sensitive transmissions such as video playback\n'
+				+ '\n'
+				+ 'A typical UDP flood attack sends a large number of UDP datagrams to random ports on its target computer.\n'
+				+ 'Step 1: Establish connection\n'
+				+ '		Request\n'
+				+ '		Response\n'
+				);
+            },
+			firewall : function () {
+                this.echo('\n'
+				+ 'network security system that monitors and controls incoming\n'
+				+ 'and outgoing network traffic based on predetermined security rules.\n'
+				);
+            },
+			hostname : function () {
+                this.echo('\n'
+				+ 'finding host/domain name and IP address'
+				);
+            },
+			ifconfig : function () {
+                this.echo(' getting network configuration'
+				);
+            },
+			nslookup : function () {
+                this.echo('query DNS lookup name'
+				);
+            },
+			telnet : function () {
+                this.echo('communicate with another hostname'
+				);
+            },
+			traceroute : function () {
+                this.echo('outing steps that packets take to get to network host'
+				);
+            },
+			finger : function () {
+                this.echo('view user information'
+				);
+            },
+			ipv4 : function () {
+                this.echo('IPv4 stands for Internet Protocol version 4. It is the underlying\n'
+				+ 'technology that makes it possible for us to connect our devices to the web'
+				);
+            },
+			kubectl : function () {
+                this.echo('allows you to run commands against Kubernetes clusters.\n'
+				+ 'You can use kubectl to deploy applications, inspect and manage \n'
+				+ 'cluster resources, and view logs. For more information including\n'
+				+ 'a complete list of kubectl operations'
+				);
+            },
+			kind : function () {
+                this.echo('kind lets you run Kubernetes on your local computer. \n'
+				+ 'This tool requires that you have Docker installed and configured.\n'
+				);
+            },
+			variable : function () {
+                this.echo('storage location (identified by a memory address) \n'
+				+ 'paired with an associated symbolic name\n'
+				);
+            },
+            test: function () {
+                this.echo('test command, it is working');
+            },
+ },
+        {
+            greetings: 'Command line interface - A place to'
+                + ' learn commands, and Computer '
+                + 'Science for free (Created by Ilya 2021)\n'
+                + 'try type <grep> or <docker>, eather type <iam -yourname->'
+
+        });
+    </script>
