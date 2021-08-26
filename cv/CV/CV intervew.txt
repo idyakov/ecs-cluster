@@ -1,0 +1,34 @@
+I am System administrator specialise on AWS Cloud Automations and DevOps technologies. I do provisioning and managing of network infrastructure of the enterprise, customers services, I do a performance of the script to troubleshooting the error codes, logging of the access to the system. My responsibility is 17 servers with several version of Linux architecture, like a Red Hat, Debian, Ubuntu. I do backup of the tables from the PostgreSQL date base.
+Because I use the Linux platform, my instruments are tcpdump, traceroute, logrotate, crontab, wireshark
+When my developer team build an application I do a process via CI to package it into isolation container environment
+
+
+
+IF I Am Feeling That Conflict approaching between us, I always take the person aside and discuss the problem privately. I am always listening to the problem carefully, to make sure, that I understand the point of view of another person, and I work with this person, that to find out the solution of work together. Even if we do not agree with each other with the end result at least we tried to go towards each other.
+
+Example of situation 
+ At least three times my colleague on the support line missed out on our deadline project of the monitoring system. After when I have discussed it, together we found the solution how to improve the system of workflows
+It is not easy for a manager to resist, but I realized that it needs to be done sometimes
+
+
+
+
+
+My project
+The company where I worked was contacted by a client, an online shopping store who wanted to set up a website in the cloud and not expensive, and I did that. It was cost-efficient for this company,  load balancing refers to the process of distributing a set of tasks
+
+I have prepared a demo of creating a website in the cloud
+
+Developing diagrams and architecture of EC2 instances, support, monitoring (Cloud Watch) on Amazon Cloud Platform
+
+I use Kubernetes container system for automating computer application like Multimedia
+
+
+In Amazone Cloud we have several instances EC2 implement function of Web Server Nginx and Monitoring in the CloudWatch. The system monitoring the  capacity of the requests to the FrontEnd
+
+Jenkins created Test job to Deploy to TEST Environment
+
+
+
+tcpdump  - is a command-line utility that you can use to capture and inspect network traffic
+Ntp - Network Time Protocol (NTP) is a networking protocol for clock synchronization
